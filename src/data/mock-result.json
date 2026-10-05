@@ -1,0 +1,15 @@
+{
+  "scheme": "Correct answers score their marks. Wrong answers score 0. Unanswered questions score 0. There is no negative marking.",
+  "answers": [
+    { "subjectId": "phy", "groupId": "g1", "sectionId": "s1", "questionId": "q1", "answer": ["c"] },
+    { "subjectId": "phy", "groupId": "g1", "sectionId": "s1", "questionId": "q2", "answer": ["a"] },
+    { "subjectId": "phy", "groupId": "g1", "sectionId": "s1", "questionId": "q3", "answer": ["c"] },
+    { "subjectId": "phy", "groupId": "g1", "sectionId": "s2", "questionId": "q13", "answer": ["b"] },
+    { "subjectId": "phy", "groupId": "g1", "sectionId": "s2", "questionId": "q14", "answer": ["b"] },
+    { "subjectId": "phy", "groupId": "g2", "sectionId": "s1", "questionId": "q15", "answer": ["6"] },
+    { "subjectId": "chem", "groupId": "g1", "sectionId": "s1", "questionId": "q1", "answer": ["b"] },
+    { "subjectId": "chem", "groupId": "g1", "sectionId": "s1", "questionId": "q2", "answer": ["b"] },
+    { "subjectId": "chem", "groupId": "g1", "sectionId": "s2", "questionId": "q5", "answer": ["fe"] },
+    { "subjectId": "chem", "groupId": "g1", "sectionId": "s2", "questionId": "q6", "answer": ["8"] }
+  ]
+}

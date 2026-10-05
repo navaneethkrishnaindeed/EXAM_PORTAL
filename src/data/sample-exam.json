@@ -1,0 +1,339 @@
+{
+  "id": "sample-physics-chemistry",
+  "title": "Physics and Chemistry mock",
+  "instructions": "This is a personal mock. Nothing is uploaded.\n\nSave & Next stores the answer and clears a review flag.\nMark for Review & Next stores the answer and flags the question.\nClear Response removes the stored answer.\nNext and the number pad move without storing, unless the question intake is On select.\n\nGreen = answered. Red = visited, not answered. Grey = not visited. Purple = marked for review. Purple with a green dot = answered and marked.\n\nUnanswered questions score 0. A wrong stored answer scores 0. This paper has no negative marking. When the timer reaches zero the paper closes.",
+  "usefulData": "g = 9.8 m/s^2\nc = 3.00 x 10^8 m/s\nDensity of water = 1 g/cm^3\nAvogadro constant = 6.022 x 10^23 /mol",
+  "durationMinutes": 20,
+  "timerMode": "exam",
+  "autoSubmit": true,
+  "actions": ["saveNext", "markReviewNext", "clear", "previous", "submit"],
+  "intake": "onSave",
+  "candidateName": "Candidate",
+  "subjects": [
+    {
+      "id": "phy",
+      "name": "Physics",
+      "durationMinutes": 12,
+      "groups": [
+        {
+          "id": "g1",
+          "name": "Group 1",
+          "sections": [
+            {
+              "id": "s1",
+              "name": "Section1",
+              "marks": { "correct": 1, "negative": 0 },
+              "questions": [
+                {
+                  "id": "q1",
+                  "type": "single",
+                  "prompt": "The hardest substance available on earth is",
+                  "options": [
+                    { "id": "a", "text": "Gold" },
+                    { "id": "b", "text": "Iron" },
+                    { "id": "c", "text": "Diamond" },
+                    { "id": "d", "text": "Platinum" }
+                  ],
+                  "correct": ["c"]
+                },
+                {
+                  "id": "q2",
+                  "type": "single",
+                  "prompt": "The SI unit of force is",
+                  "options": [
+                    { "id": "a", "text": "Joule" },
+                    { "id": "b", "text": "Newton" },
+                    { "id": "c", "text": "Watt" },
+                    { "id": "d", "text": "Pascal" }
+                  ],
+                  "correct": ["b"]
+                },
+                {
+                  "id": "q3",
+                  "type": "single",
+                  "prompt": "Which instrument measures electric current?",
+                  "options": [
+                    { "id": "a", "text": "Voltmeter" },
+                    { "id": "b", "text": "Barometer" },
+                    { "id": "c", "text": "Ammeter" },
+                    { "id": "d", "text": "Hygrometer" }
+                  ],
+                  "correct": ["c"]
+                },
+                {
+                  "id": "q4",
+                  "type": "single",
+                  "prompt": "An electron carries which kind of charge?",
+                  "options": [
+                    { "id": "a", "text": "Positive" },
+                    { "id": "b", "text": "Negative" },
+                    { "id": "c", "text": "Neutral" },
+                    { "id": "d", "text": "Variable" }
+                  ],
+                  "correct": ["b"]
+                },
+                {
+                  "id": "q5",
+                  "type": "single",
+                  "prompt": "Light travels fastest through",
+                  "options": [
+                    { "id": "a", "text": "Glass" },
+                    { "id": "b", "text": "Water" },
+                    { "id": "c", "text": "Diamond" },
+                    { "id": "d", "text": "Vacuum" }
+                  ],
+                  "correct": ["d"]
+                },
+                {
+                  "id": "q6",
+                  "type": "single",
+                  "prompt": "Temperature is measured with a",
+                  "options": [
+                    { "id": "a", "text": "Thermometer" },
+                    { "id": "b", "text": "Ammeter" },
+                    { "id": "c", "text": "Manometer" },
+                    { "id": "d", "text": "Odometer" }
+                  ],
+                  "correct": ["a"]
+                },
+                {
+                  "id": "q7",
+                  "type": "single",
+                  "prompt": "The SI unit of energy is the",
+                  "options": [
+                    { "id": "a", "text": "Newton" },
+                    { "id": "b", "text": "Joule" },
+                    { "id": "c", "text": "Tesla" },
+                    { "id": "d", "text": "Hertz" }
+                  ],
+                  "correct": ["b"]
+                },
+                {
+                  "id": "q8",
+                  "type": "single",
+                  "prompt": "Action and reaction are described by",
+                  "options": [
+                    { "id": "a", "text": "Newton's first law" },
+                    { "id": "b", "text": "Newton's second law" },
+                    { "id": "c", "text": "Newton's third law" },
+                    { "id": "d", "text": "Hooke's law" }
+                  ],
+                  "correct": ["c"]
+                },
+                {
+                  "id": "q9",
+                  "type": "single",
+                  "prompt": "A proton carries which kind of charge?",
+                  "options": [
+                    { "id": "a", "text": "Positive" },
+                    { "id": "b", "text": "Negative" },
+                    { "id": "c", "text": "Zero" },
+                    { "id": "d", "text": "Fractional only" }
+                  ],
+                  "correct": ["a"]
+                },
+                {
+                  "id": "q10",
+                  "type": "single",
+                  "prompt": "Pure water freezes at 1 atm at",
+                  "options": [
+                    { "id": "a", "text": "0 degrees C" },
+                    { "id": "b", "text": "32 degrees C" },
+                    { "id": "c", "text": "100 degrees C" },
+                    { "id": "d", "text": "-10 degrees C" }
+                  ],
+                  "correct": ["a"]
+                },
+                {
+                  "id": "q11",
+                  "type": "single",
+                  "prompt": "Which lens converges a parallel beam of light?",
+                  "options": [
+                    { "id": "a", "text": "Concave lens" },
+                    { "id": "b", "text": "Convex lens" },
+                    { "id": "c", "text": "Plane glass" },
+                    { "id": "d", "text": "Biconcave lens" }
+                  ],
+                  "correct": ["b"],
+                  "images": [
+                    {
+                      "alt": "Convex lens bringing parallel rays to a focus",
+                      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22480%22%20height%3D%22220%22%20viewBox%3D%220%200%20480%20220%22%3E%3Crect%20width%3D%22480%22%20height%3D%22220%22%20fill%3D%22%23f4f8fb%22%2F%3E%3Ctext%20x%3D%2220%22%20y%3D%2232%22%20font-family%3D%22Segoe%20UI%2Csans-serif%22%20font-size%3D%2218%22%20fill%3D%22%231d3c56%22%3EConvex%20lens%3C%2Ftext%3E%3Cline%20x1%3D%2240%22%20y1%3D%2280%22%20x2%3D%22210%22%20y2%3D%2280%22%20stroke%3D%22%232f7eb5%22%20stroke-width%3D%223%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%22140%22%20x2%3D%22210%22%20y2%3D%22140%22%20stroke%3D%22%232f7eb5%22%20stroke-width%3D%223%22%2F%3E%3Cpath%20d%3D%22M200%2050%20Q250%20110%20200%20170%20Q230%20110%20200%2050%22%20fill%3D%22%23d7ebf8%22%20stroke%3D%22%231d3c56%22%20stroke-width%3D%223%22%2F%3E%3Cline%20x1%3D%22250%22%20y1%3D%2280%22%20x2%3D%22360%22%20y2%3D%22110%22%20stroke%3D%22%23e36b2c%22%20stroke-width%3D%223%22%2F%3E%3Cline%20x1%3D%22250%22%20y1%3D%22140%22%20x2%3D%22360%22%20y2%3D%22110%22%20stroke%3D%22%23e36b2c%22%20stroke-width%3D%223%22%2F%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22110%22%20r%3D%225%22%20fill%3D%22%23e36b2c%22%2F%3E%3C%2Fsvg%3E"
+                    },
+                    {
+                      "alt": "Concave lens spreading parallel rays",
+                      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22480%22%20height%3D%22220%22%20viewBox%3D%220%200%20480%20220%22%3E%3Crect%20width%3D%22480%22%20height%3D%22220%22%20fill%3D%22%23f4f8fb%22%2F%3E%3Ctext%20x%3D%2220%22%20y%3D%2232%22%20font-family%3D%22Segoe%20UI%2Csans-serif%22%20font-size%3D%2218%22%20fill%3D%22%231d3c56%22%3EConcave%20lens%3C%2Ftext%3E%3Cline%20x1%3D%2240%22%20y1%3D%2290%22%20x2%3D%22200%22%20y2%3D%2290%22%20stroke%3D%22%232f7eb5%22%20stroke-width%3D%223%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%22130%22%20x2%3D%22200%22%20y2%3D%22130%22%20stroke%3D%22%232f7eb5%22%20stroke-width%3D%223%22%2F%3E%3Cpath%20d%3D%22M210%2048%20Q180%20110%20210%20172%20Q250%20110%20210%2048%22%20fill%3D%22%23d7ebf8%22%20stroke%3D%22%231d3c56%22%20stroke-width%3D%223%22%2F%3E%3Cline%20x1%3D%22230%22%20y1%3D%2270%22%20x2%3D%22420%22%20y2%3D%2240%22%20stroke%3D%22%23e36b2c%22%20stroke-width%3D%223%22%2F%3E%3Cline%20x1%3D%22230%22%20y1%3D%22150%22%20x2%3D%22420%22%20y2%3D%22180%22%20stroke%3D%22%23e36b2c%22%20stroke-width%3D%223%22%2F%3E%3C%2Fsvg%3E"
+                    }
+                  ]
+                },
+                {
+                  "id": "q12",
+                  "type": "single",
+                  "prompt": "Sound cannot travel through",
+                  "options": [
+                    { "id": "a", "text": "Air" },
+                    { "id": "b", "text": "Steel" },
+                    { "id": "c", "text": "Water" },
+                    { "id": "d", "text": "Vacuum" }
+                  ],
+                  "correct": ["d"]
+                }
+              ]
+            },
+            {
+              "id": "s2",
+              "name": "Section2",
+              "marks": { "correct": 4, "negative": 0 },
+              "questions": [
+                {
+                  "id": "q13",
+                  "type": "multi",
+                  "prompt": "Select every vector quantity.",
+                  "options": [
+                    { "id": "a", "text": "Speed" },
+                    { "id": "b", "text": "Velocity" },
+                    { "id": "c", "text": "Mass" },
+                    { "id": "d", "text": "Force" }
+                  ],
+                  "correct": ["b", "d"],
+                  "marks": { "correct": 2, "negative": 0, "partialPerCorrect": 1 }
+                },
+                {
+                  "id": "q14",
+                  "type": "multi",
+                  "prompt": "Select every noble gas.",
+                  "options": [
+                    { "id": "a", "text": "Helium" },
+                    { "id": "b", "text": "Oxygen" },
+                    { "id": "c", "text": "Neon" },
+                    { "id": "d", "text": "Chlorine" }
+                  ],
+                  "correct": ["a", "c"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "name": "Group 2",
+          "sections": [
+            {
+              "id": "s1",
+              "name": "Section1",
+              "marks": { "correct": 2, "negative": 0 },
+              "questions": [
+                {
+                  "id": "q15",
+                  "type": "text",
+                  "prompt": "Atomic number of carbon.",
+                  "correct": ["6"],
+                  "textMatch": "numericTolerance",
+                  "tolerance": 0
+                },
+                {
+                  "id": "q16",
+                  "type": "text",
+                  "prompt": "Value of pi to two decimal places.",
+                  "correct": ["3.14"],
+                  "textMatch": "numericTolerance",
+                  "tolerance": 0.001
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chem",
+      "name": "Chemistry",
+      "durationMinutes": 8,
+      "groups": [
+        {
+          "id": "g1",
+          "name": "Group 1",
+          "sections": [
+            {
+              "id": "s1",
+              "name": "Section1",
+              "marks": { "correct": 2, "negative": 0 },
+              "questions": [
+                {
+                  "id": "q1",
+                  "type": "single",
+                  "prompt": "The common name of H2O is",
+                  "options": [
+                    { "id": "a", "text": "Ammonia" },
+                    { "id": "b", "text": "Water" },
+                    { "id": "c", "text": "Methane" },
+                    { "id": "d", "text": "Salt" }
+                  ],
+                  "correct": ["b"]
+                },
+                {
+                  "id": "q2",
+                  "type": "single",
+                  "prompt": "The chemical name of NaCl is",
+                  "options": [
+                    { "id": "a", "text": "Sodium chloride" },
+                    { "id": "b", "text": "Sodium carbonate" },
+                    { "id": "c", "text": "Potassium chloride" },
+                    { "id": "d", "text": "Calcium oxide" }
+                  ],
+                  "correct": ["a"]
+                },
+                {
+                  "id": "q3",
+                  "type": "single",
+                  "prompt": "Au is the symbol of",
+                  "options": [
+                    { "id": "a", "text": "Silver" },
+                    { "id": "b", "text": "Aluminium" },
+                    { "id": "c", "text": "Gold" },
+                    { "id": "d", "text": "Argon" }
+                  ],
+                  "correct": ["c"]
+                },
+                {
+                  "id": "q4",
+                  "type": "single",
+                  "prompt": "The smallest particle of an element that keeps its properties is an",
+                  "options": [
+                    { "id": "a", "text": "Atom" },
+                    { "id": "b", "text": "Mixture" },
+                    { "id": "c", "text": "Compound only" },
+                    { "id": "d", "text": "Mole" }
+                  ],
+                  "correct": ["a"]
+                }
+              ]
+            },
+            {
+              "id": "s2",
+              "name": "Section2",
+              "marks": { "correct": 2, "negative": 0 },
+              "questions": [
+                {
+                  "id": "q5",
+                  "type": "text",
+                  "prompt": "Chemical symbol of iron.",
+                  "correct": ["Fe"],
+                  "textMatch": "caseInsensitive"
+                },
+                {
+                  "id": "q6",
+                  "type": "text",
+                  "prompt": "pH of neutral water at 25 degrees C.",
+                  "correct": ["7"],
+                  "textMatch": "numericTolerance",
+                  "tolerance": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
